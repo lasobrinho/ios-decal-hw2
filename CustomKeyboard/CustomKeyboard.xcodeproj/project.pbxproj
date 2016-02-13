@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5554491BA930D800AF502F /* Keyboard.xib */; settings = {ASSET_TAGS = (); }; };
+		3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5554491BA930D800AF502F /* Keyboard.xib */; };
 		3AAA639A1BA9263900E3822E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA63991BA9263900E3822E /* AppDelegate.swift */; };
 		3AAA639C1BA9263900E3822E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA639B1BA9263900E3822E /* ViewController.swift */; };
 		3AAA639F1BA9263900E3822E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA639D1BA9263900E3822E /* Main.storyboard */; };
@@ -15,6 +15,21 @@
 		3AAA63A41BA9263900E3822E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA63A21BA9263900E3822E /* LaunchScreen.storyboard */; };
 		3AAA63B31BA9283500E3822E /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */; };
 		3AAA63B71BA9283500E3822E /* CalKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3AAA63B01BA9283500E3822E /* CalKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A03854CD1C6D8B1B00E3E336 /* asd.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03854CC1C6D8B1B00E3E336 /* asd.swift */; };
+		A03854CF1C6D939800E3E336 /* SoundText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03854CE1C6D939800E3E336 /* SoundText.swift */; };
+		A03854DB1C6DC82500E3E336 /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A03854DA1C6DC82500E3E336 /* C.mp3 */; };
+		A03854E21C6DC8AB00E3E336 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A03854DC1C6DC8AB00E3E336 /* A.mp3 */; };
+		A03854E31C6DC8AB00E3E336 /* B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A03854DD1C6DC8AB00E3E336 /* B.mp3 */; };
+		A03854E41C6DC8AB00E3E336 /* D.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A03854DE1C6DC8AB00E3E336 /* D.mp3 */; };
+		A03854E51C6DC8AB00E3E336 /* E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A03854DF1C6DC8AB00E3E336 /* E.mp3 */; };
+		A03854E61C6DC8AB00E3E336 /* F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A03854E01C6DC8AB00E3E336 /* F.mp3 */; };
+		A03854E71C6DC8AB00E3E336 /* G.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A03854E11C6DC8AB00E3E336 /* G.mp3 */; };
+		A08F6D171C6DE914004A026F /* D#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A08F6D161C6DE914004A026F /* D#.mp3 */; };
+		A08F6D1A1C6DE920004A026F /* F#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A08F6D181C6DE920004A026F /* F#.mp3 */; };
+		A08F6D1B1C6DE920004A026F /* G#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A08F6D191C6DE920004A026F /* G#.mp3 */; };
+		A08F6D1E1C6DE92B004A026F /* A#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A08F6D1C1C6DE92B004A026F /* A#.mp3 */; };
+		A08F6D1F1C6DE92B004A026F /* C#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A08F6D1D1C6DE92B004A026F /* C#.mp3 */; };
+		A0C8D04D1C6EFAD100866563 /* bn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8D04C1C6EFAD100866563 /* bn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +68,21 @@
 		3AAA63B01BA9283500E3822E /* CalKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CalKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		3AAA63B41BA9283500E3822E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03854CC1C6D8B1B00E3E336 /* asd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = asd.swift; sourceTree = "<group>"; };
+		A03854CE1C6D939800E3E336 /* SoundText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundText.swift; sourceTree = "<group>"; };
+		A03854DA1C6DC82500E3E336 /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C.mp3; path = ../../../../../Desktop/C.mp3; sourceTree = "<group>"; };
+		A03854DC1C6DC8AB00E3E336 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = A.mp3; path = ../../../../../Desktop/A.mp3; sourceTree = "<group>"; };
+		A03854DD1C6DC8AB00E3E336 /* B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = B.mp3; path = ../../../../../Desktop/B.mp3; sourceTree = "<group>"; };
+		A03854DE1C6DC8AB00E3E336 /* D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = D.mp3; path = ../../../../../Desktop/D.mp3; sourceTree = "<group>"; };
+		A03854DF1C6DC8AB00E3E336 /* E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = E.mp3; path = ../../../../../Desktop/E.mp3; sourceTree = "<group>"; };
+		A03854E01C6DC8AB00E3E336 /* F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = F.mp3; path = ../../../../../Desktop/F.mp3; sourceTree = "<group>"; };
+		A03854E11C6DC8AB00E3E336 /* G.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = G.mp3; path = ../../../../../Desktop/G.mp3; sourceTree = "<group>"; };
+		A08F6D161C6DE914004A026F /* D#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "D#.mp3"; path = "../../../../../Desktop/D#.mp3"; sourceTree = "<group>"; };
+		A08F6D181C6DE920004A026F /* F#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F#.mp3"; path = "../../../../../Desktop/F#.mp3"; sourceTree = "<group>"; };
+		A08F6D191C6DE920004A026F /* G#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "G#.mp3"; path = "../../../../../Desktop/G#.mp3"; sourceTree = "<group>"; };
+		A08F6D1C1C6DE92B004A026F /* A#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A#.mp3"; path = "../../../../../Desktop/A#.mp3"; sourceTree = "<group>"; };
+		A08F6D1D1C6DE92B004A026F /* C#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C#.mp3"; path = "../../../../../Desktop/C#.mp3"; sourceTree = "<group>"; };
+		A0C8D04C1C6EFAD100866563 /* bn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +138,23 @@
 			isa = PBXGroup;
 			children = (
 				3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */,
+				A03854CC1C6D8B1B00E3E336 /* asd.swift */,
+				A0C8D04C1C6EFAD100866563 /* bn.swift */,
 				3A5554491BA930D800AF502F /* Keyboard.xib */,
 				3AAA63B41BA9283500E3822E /* Info.plist */,
+				A03854DA1C6DC82500E3E336 /* C.mp3 */,
+				A03854DC1C6DC8AB00E3E336 /* A.mp3 */,
+				A03854DD1C6DC8AB00E3E336 /* B.mp3 */,
+				A03854DE1C6DC8AB00E3E336 /* D.mp3 */,
+				A03854DF1C6DC8AB00E3E336 /* E.mp3 */,
+				A08F6D1C1C6DE92B004A026F /* A#.mp3 */,
+				A08F6D1D1C6DE92B004A026F /* C#.mp3 */,
+				A08F6D181C6DE920004A026F /* F#.mp3 */,
+				A08F6D191C6DE920004A026F /* G#.mp3 */,
+				A03854E01C6DC8AB00E3E336 /* F.mp3 */,
+				A08F6D161C6DE914004A026F /* D#.mp3 */,
+				A03854E11C6DC8AB00E3E336 /* G.mp3 */,
+				A03854CE1C6D939800E3E336 /* SoundText.swift */,
 			);
 			path = CalKeyboard;
 			sourceTree = "<group>";
@@ -204,7 +249,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A08F6D1F1C6DE92B004A026F /* C#.mp3 in Resources */,
+				A03854E31C6DC8AB00E3E336 /* B.mp3 in Resources */,
+				A03854E61C6DC8AB00E3E336 /* F.mp3 in Resources */,
+				A08F6D1B1C6DE920004A026F /* G#.mp3 in Resources */,
+				A03854E21C6DC8AB00E3E336 /* A.mp3 in Resources */,
+				A08F6D1E1C6DE92B004A026F /* A#.mp3 in Resources */,
+				A03854DB1C6DC82500E3E336 /* C.mp3 in Resources */,
+				A08F6D171C6DE914004A026F /* D#.mp3 in Resources */,
+				A08F6D1A1C6DE920004A026F /* F#.mp3 in Resources */,
+				A03854E41C6DC8AB00E3E336 /* D.mp3 in Resources */,
+				A03854E71C6DC8AB00E3E336 /* G.mp3 in Resources */,
 				3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */,
+				A03854E51C6DC8AB00E3E336 /* E.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03854CF1C6D939800E3E336 /* SoundText.swift in Sources */,
+				A03854CD1C6D8B1B00E3E336 /* asd.swift in Sources */,
 				3AAA63B31BA9283500E3822E /* KeyboardViewController.swift in Sources */,
+				A0C8D04D1C6EFAD100866563 /* bn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
