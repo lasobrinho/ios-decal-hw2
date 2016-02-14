@@ -14,19 +14,144 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRt-12-JcF">
-                    <rect key="frame" x="8" y="162" width="30" height="30"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="30" id="eu0-xj-Jov"/>
-                        <constraint firstAttribute="height" constant="30" id="rFT-bm-aBM"/>
-                    </constraints>
-                    <state key="normal" title="N"/>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRt-12-JcF" customClass="bo" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="23" y="180" width="45" height="26"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal">
+                        <mutableString key="title">🌐
+Globe with meridians
+Unicode: U+1F310, UTF-8: F0 9F 8C 90
+Keyboard
+Unicode: U+2328, UTF-8: E2 8C A8
+Keyboard
+Unicode: U+2328, UTF-8: E2 8C A8
+Keyboard
+Unicode: U+2328, UTF-8: E2 8C A8
+Musical keyboard
+Unicode: U+1F3B9, UTF-8: F0 9F 8E B9
+Keyboard
+Unicode: U+2328, UTF-8: E2 8C 
+Keyboard
+Unicode: U+2328, UTF-8: E2 8C A8</mutableString>
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIn-CG-8ZY" customClass="bn" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="70" y="-5" width="45" height="150"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                    <state key="normal" title="D"/>
+                    <connections>
+                        <action selector="playKey:" destination="-1" eventType="touchUpInside" id="cdf-9l-qPV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5SY-Eb-KXz" customClass="bn" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="117" y="-5" width="45" height="150"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                    <state key="normal" title="E"/>
+                    <connections>
+                        <action selector="playKey:" destination="-1" eventType="touchUpInside" id="8QF-lK-3D1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hmw-HQ-0gA" customClass="bn" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="164" y="-5" width="45" height="150"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                    <state key="normal" title="F"/>
+                    <connections>
+                        <action selector="playKey:" destination="-1" eventType="touchUpInside" id="MHZ-aX-NvG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2M-JW-zfB" customClass="bn" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="211" y="-5" width="45" height="150"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                    <state key="normal" title="G"/>
+                    <connections>
+                        <action selector="playKey:" destination="-1" eventType="touchUpInside" id="T0X-f5-dP2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmo-De-ptt" customClass="bn" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="258" y="-5" width="45" height="150"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                    <state key="normal" title="A"/>
+                    <connections>
+                        <action selector="playKey:" destination="-1" eventType="touchUpInside" id="rXA-fj-Q4W"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9x-Na-d0h" customClass="bn" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="305" y="-5" width="45" height="150"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                    <state key="normal" title="B"/>
+                    <connections>
+                        <action selector="playKey:" destination="-1" eventType="touchUpInside" id="khh-ZW-b9k"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="StB-az-K1W" customClass="bn" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="23" y="-5" width="45" height="150"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                    <state key="normal" title="C"/>
+                    <connections>
+                        <action selector="playKey:" destination="-1" eventType="touchUpInside" id="0AQ-kX-miV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvk-vp-36V" customClass="bs" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="52" y="-5" width="35" height="90"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                    <state key="normal" title="C#"/>
+                    <connections>
+                        <action selector="playKey:" destination="-1" eventType="touchUpInside" id="eaD-2Z-PNc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVf-7g-bzb" customClass="bs" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="99" y="-5" width="35" height="90"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                    <state key="normal" title="D#"/>
+                    <connections>
+                        <action selector="playKey:" destination="-1" eventType="touchUpInside" id="jWW-GO-8ee"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWE-GI-UFI" customClass="bs" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="193" y="-5" width="35" height="90"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                    <state key="normal" title="F#"/>
+                    <connections>
+                        <action selector="playKey:" destination="-1" eventType="touchUpInside" id="8cC-kh-x3H"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="enK-7u-Thn" customClass="bs" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="240" y="-5" width="35" height="90"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                    <state key="normal" title="G#"/>
+                    <connections>
+                        <action selector="playKey:" destination="-1" eventType="touchUpInside" id="4x9-u2-tTp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFa-lB-wcy" customClass="bs" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="287" y="-5" width="35" height="90"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                    <state key="normal" title="A#"/>
+                    <connections>
+                        <action selector="playKey:" destination="-1" eventType="touchUpInside" id="2L7-oM-w8G"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OR9-We-T1g" customClass="bo" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="211" y="180" width="45" height="26"/>
+                    <state key="normal">
+                        <string key="title">⏎
+RETURN SYMBOL
+Unicode: U+23CE, UTF-8: E2 8F 8E</string>
+                    </state>
+                    <connections>
+                        <action selector="returnButton:" destination="-1" eventType="touchUpInside" id="6aj-rC-JZT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZq-uA-YHO" customClass="bo" customModule="CalKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="258" y="180" width="92" height="26"/>
+                    <state key="normal" title="DELETE"/>
+                    <connections>
+                        <action selector="deleteButton:" destination="-1" eventType="touchUpInside" id="2As-AN-z91"/>
+                    </connections>
                 </button>
             </subviews>
-            <constraints>
-                <constraint firstItem="gRt-12-JcF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="LUD-YX-JVD"/>
-                <constraint firstAttribute="bottom" secondItem="gRt-12-JcF" secondAttribute="bottom" constant="8" id="tEE-h3-FZa"/>
-            </constraints>
+            <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="605.5" y="542"/>

@@ -2,13 +2,13 @@
 //  asd.swift
 //  CustomKeyboard
 //
-//  Created by Lucas Alves Sobrinho on 2/12/16.
+//  Created by Lucas Alves Sobrinho on 2/13/16.
 //  Copyright © 2016 iOS Decal. All rights reserved.
 //
 
 import UIKit
 
-class bn: UIButton {
+class bo: UIButton {
     
     let gradientLayer = CAGradientLayer()
     
@@ -30,8 +30,6 @@ class bn: UIButton {
         self.layer.shadowOpacity = 0.5
         self.layer.shadowRadius = 2
         self.layer.shadowOffset = CGSizeMake(0, 5.0)
-        
-        self.titleEdgeInsets = UIEdgeInsetsMake(100.0, 0.0, 0.0, 0.0)
         
     }
 }

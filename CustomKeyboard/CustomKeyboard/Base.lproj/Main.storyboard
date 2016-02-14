@@ -25,13 +25,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LsU-l7-hQF">
-                                <rect key="frame" x="180" y="94" width="240" height="128"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="l6D-q4-5IR" appends="YES" id="5C0-uu-kj7"/>
-                                </connections>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -40,7 +33,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="img1" destination="LsU-l7-hQF" id="knG-jR-OZ6"/>
                         <outlet property="textField" destination="hTJ-8E-ODA" id="hf2-nk-UdX"/>
                     </connections>
                 </viewController>

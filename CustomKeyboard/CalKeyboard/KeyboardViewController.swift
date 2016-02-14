@@ -7,57 +7,22 @@
 //
 
 import UIKit
-
-import SpriteKit
 import AVFoundation
 
-import AudioToolbox
-
-
-
 class KeyboardViewController: UIInputViewController {
-    
-    var audioPlayer:AVAudioPlayer!
-    
+
     @IBOutlet var nextKeyboardButton: UIButton!
-    
-    var asdasd : [asd] = []
-    let notes0 = ["C", "D", "E", "F", "G", "A", "B"]
-    let notes1 = ["C#", "D#", "F#", "G#", "A#"]
-    var offset = 47
-    
     var keyboardView: UIView!
+    var audioPlayer:AVAudioPlayer!
     
     override func updateViewConstraints() {
         super.updateViewConstraints()
         // Add custom view sizing constraints here
     }
     
-    func play(sender: asd) {
-        self.textDocumentProxy.insertText(sender.note + " ")
-        sender.play()
-    }
-    
     override func viewDidLoad() {
-        
         super.viewDidLoad()
         loadInterface()
-        
-        for i in 0..<7 {
-            asdasd.append(asd(note: notes0[i], offset: offset * i, type: 0))
-            asdasd[i].addTarget(self, action: "play:", forControlEvents: .TouchUpInside)
-            keyboardView.addSubview(asdasd[i])
-        }
-        
-        for i in 0..<5 {
-            if i > 1 {
-                asdasd.append(asd(note: notes1[i], offset: 47 + offset * i, type: 1))
-            } else {
-                asdasd.append(asd(note: notes1[i], offset: offset * i, type: 1))
-            }
-            asdasd[7 + i].addTarget(self, action: "play:", forControlEvents: .AllEvents)
-            keyboardView.addSubview(asdasd[7 + i])
-        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -73,13 +38,38 @@ class KeyboardViewController: UIInputViewController {
         // The app has just changed the document's contents, the document context has been updated.
     }
     
+    @IBAction func playKey(sender: UIButton) {
+        self.playNote(sender.currentTitle!);
+    }
+    
+    func playNote(note : String) {
+        let audioFilePath = NSBundle.mainBundle().pathForResource(note, ofType: "mp3")!
+        do {
+            let audioFileUrl = NSURL.fileURLWithPath(audioFilePath)
+            audioPlayer = try AVAudioPlayer(contentsOfURL: audioFileUrl, fileTypeHint: nil)
+        } catch {
+            fatalError("Error playing sound from file " + note + ".mp3")
+        }
+        audioPlayer.play()
+        self.textDocumentProxy.insertText(note + " ")
+    }
+    
+    @IBAction func returnButton(sender: AnyObject) {
+        self.textDocumentProxy.insertText("\n")
+    }
+    
+    @IBAction func deleteButton(sender: AnyObject) {
+        self.textDocumentProxy.deleteBackward()
+    }
+    
     func loadInterface() {
         let keyboardNib = UINib(nibName: "Keyboard", bundle: nil)
         keyboardView = keyboardNib.instantiateWithOwner(self, options: nil)[0] as! UIView
         keyboardView.frame = view.frame
         view.addSubview(keyboardView)
-        view.backgroundColor = keyboardView.backgroundColor
+        view.backgroundColor = UIColor(patternImage: UIImage(named: "bg1.png")!)
         nextKeyboardButton.addTarget(self, action: "advanceToNextInputMode", forControlEvents: .TouchUpInside) // advanceToNextInputMode is already defined in template
         
     }
+    
 }

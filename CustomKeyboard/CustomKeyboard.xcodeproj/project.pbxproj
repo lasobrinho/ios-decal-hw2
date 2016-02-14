@@ -15,8 +15,6 @@
 		3AAA63A41BA9263900E3822E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA63A21BA9263900E3822E /* LaunchScreen.storyboard */; };
 		3AAA63B31BA9283500E3822E /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */; };
 		3AAA63B71BA9283500E3822E /* CalKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3AAA63B01BA9283500E3822E /* CalKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		A03854CD1C6D8B1B00E3E336 /* asd.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03854CC1C6D8B1B00E3E336 /* asd.swift */; };
-		A03854CF1C6D939800E3E336 /* SoundText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03854CE1C6D939800E3E336 /* SoundText.swift */; };
 		A03854DB1C6DC82500E3E336 /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A03854DA1C6DC82500E3E336 /* C.mp3 */; };
 		A03854E21C6DC8AB00E3E336 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A03854DC1C6DC8AB00E3E336 /* A.mp3 */; };
 		A03854E31C6DC8AB00E3E336 /* B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A03854DD1C6DC8AB00E3E336 /* B.mp3 */; };
@@ -29,6 +27,9 @@
 		A08F6D1B1C6DE920004A026F /* G#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A08F6D191C6DE920004A026F /* G#.mp3 */; };
 		A08F6D1E1C6DE92B004A026F /* A#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A08F6D1C1C6DE92B004A026F /* A#.mp3 */; };
 		A08F6D1F1C6DE92B004A026F /* C#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A08F6D1D1C6DE92B004A026F /* C#.mp3 */; };
+		A0A037711C6FEFA100425F25 /* bs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A037701C6FEFA100425F25 /* bs.swift */; };
+		A0A037751C70005800425F25 /* bo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A037741C70005800425F25 /* bo.swift */; };
+		A0A037791C7002D500425F25 /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A037781C7002D500425F25 /* bg1.png */; };
 		A0C8D04D1C6EFAD100866563 /* bn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8D04C1C6EFAD100866563 /* bn.swift */; };
 /* End PBXBuildFile section */
 
@@ -68,8 +69,6 @@
 		3AAA63B01BA9283500E3822E /* CalKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CalKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		3AAA63B41BA9283500E3822E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A03854CC1C6D8B1B00E3E336 /* asd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = asd.swift; sourceTree = "<group>"; };
-		A03854CE1C6D939800E3E336 /* SoundText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundText.swift; sourceTree = "<group>"; };
 		A03854DA1C6DC82500E3E336 /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C.mp3; path = ../../../../../Desktop/C.mp3; sourceTree = "<group>"; };
 		A03854DC1C6DC8AB00E3E336 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = A.mp3; path = ../../../../../Desktop/A.mp3; sourceTree = "<group>"; };
 		A03854DD1C6DC8AB00E3E336 /* B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = B.mp3; path = ../../../../../Desktop/B.mp3; sourceTree = "<group>"; };
@@ -82,6 +81,9 @@
 		A08F6D191C6DE920004A026F /* G#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "G#.mp3"; path = "../../../../../Desktop/G#.mp3"; sourceTree = "<group>"; };
 		A08F6D1C1C6DE92B004A026F /* A#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A#.mp3"; path = "../../../../../Desktop/A#.mp3"; sourceTree = "<group>"; };
 		A08F6D1D1C6DE92B004A026F /* C#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C#.mp3"; path = "../../../../../Desktop/C#.mp3"; sourceTree = "<group>"; };
+		A0A037701C6FEFA100425F25 /* bs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bs.swift; sourceTree = "<group>"; };
+		A0A037741C70005800425F25 /* bo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bo.swift; sourceTree = "<group>"; };
+		A0A037781C7002D500425F25 /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg1.png; path = ../../../../../Desktop/bg1.png; sourceTree = "<group>"; };
 		A0C8D04C1C6EFAD100866563 /* bn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,14 +140,24 @@
 			isa = PBXGroup;
 			children = (
 				3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */,
-				A03854CC1C6D8B1B00E3E336 /* asd.swift */,
 				A0C8D04C1C6EFAD100866563 /* bn.swift */,
+				A0A037701C6FEFA100425F25 /* bs.swift */,
+				A0A037741C70005800425F25 /* bo.swift */,
 				3A5554491BA930D800AF502F /* Keyboard.xib */,
 				3AAA63B41BA9283500E3822E /* Info.plist */,
+				A0A0377C1C70057400425F25 /* assets */,
+			);
+			path = CalKeyboard;
+			sourceTree = "<group>";
+		};
+		A0A0377C1C70057400425F25 /* assets */ = {
+			isa = PBXGroup;
+			children = (
 				A03854DA1C6DC82500E3E336 /* C.mp3 */,
 				A03854DC1C6DC8AB00E3E336 /* A.mp3 */,
 				A03854DD1C6DC8AB00E3E336 /* B.mp3 */,
 				A03854DE1C6DC8AB00E3E336 /* D.mp3 */,
+				A0A037781C7002D500425F25 /* bg1.png */,
 				A03854DF1C6DC8AB00E3E336 /* E.mp3 */,
 				A08F6D1C1C6DE92B004A026F /* A#.mp3 */,
 				A08F6D1D1C6DE92B004A026F /* C#.mp3 */,
@@ -154,9 +166,8 @@
 				A03854E01C6DC8AB00E3E336 /* F.mp3 */,
 				A08F6D161C6DE914004A026F /* D#.mp3 */,
 				A03854E11C6DC8AB00E3E336 /* G.mp3 */,
-				A03854CE1C6D939800E3E336 /* SoundText.swift */,
 			);
-			path = CalKeyboard;
+			name = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 					};
 					3AAA63AF1BA9283500E3822E = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = SC4ULZQ58H;
 					};
 				};
 			};
@@ -253,6 +265,7 @@
 				A03854E31C6DC8AB00E3E336 /* B.mp3 in Resources */,
 				A03854E61C6DC8AB00E3E336 /* F.mp3 in Resources */,
 				A08F6D1B1C6DE920004A026F /* G#.mp3 in Resources */,
+				A0A037791C7002D500425F25 /* bg1.png in Resources */,
 				A03854E21C6DC8AB00E3E336 /* A.mp3 in Resources */,
 				A08F6D1E1C6DE92B004A026F /* A#.mp3 in Resources */,
 				A03854DB1C6DC82500E3E336 /* C.mp3 in Resources */,
@@ -281,9 +294,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A03854CF1C6D939800E3E336 /* SoundText.swift in Sources */,
-				A03854CD1C6D8B1B00E3E336 /* asd.swift in Sources */,
+				A0A037711C6FEFA100425F25 /* bs.swift in Sources */,
 				3AAA63B31BA9283500E3822E /* KeyboardViewController.swift in Sources */,
+				A0A037751C70005800425F25 /* bo.swift in Sources */,
 				A0C8D04D1C6EFAD100866563 /* bn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,10 +439,13 @@
 		3AAA63B91BA9283500E3822E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CalKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cs198-1.CustomKeyboard.CalKeyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -437,10 +453,13 @@
 		3AAA63BA1BA9283500E3822E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CalKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cs198-1.CustomKeyboard.CalKeyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
