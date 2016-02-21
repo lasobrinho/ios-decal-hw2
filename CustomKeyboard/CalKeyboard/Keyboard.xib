@@ -18,7 +18,7 @@
                     <rect key="frame" x="23" y="180" width="45" height="26"/>
                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                     <state key="normal">
-                        <mutableString key="title">🌐
+                        <string key="title">🌐
 Globe with meridians
 Unicode: U+1F310, UTF-8: F0 9F 8C 90
 Keyboard
@@ -32,7 +32,7 @@ Unicode: U+1F3B9, UTF-8: F0 9F 8E B9
 Keyboard
 Unicode: U+2328, UTF-8: E2 8C 
 Keyboard
-Unicode: U+2328, UTF-8: E2 8C A8</mutableString>
+Unicode: U+2328, UTF-8: E2 8C A8</string>
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                 </button>
